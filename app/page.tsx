@@ -135,7 +135,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={isLoading || !input.trim()}
-            className="h-10 rounded-xl bg-zinc-900 px-4 text-sm font-medium text-zinc-50 transition-colors disabled:opacity-40 dark:bg-zinc-100 dark:text-zinc-900"
+            className="h-10 cursor-pointer rounded-xl bg-zinc-900 px-4 text-sm font-medium text-zinc-50 transition-colors disabled:cursor-not-allowed disabled:opacity-40 dark:bg-zinc-100 dark:text-zinc-900"
           >
             Send
           </button>
